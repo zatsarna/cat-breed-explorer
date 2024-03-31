@@ -1,3 +1,5 @@
+# CTD Project
+
 # Cat Breed Explorer
 
 This project is a TypeScript and React application that allows users to explore different cat breeds. Users can select a cat breed from the available options, and upon clicking the submit button, they will see five pictures of cats belonging to the selected breed. Additionally, users can click the "Learn more about this breed" button to find more information about the selected breed.
@@ -15,9 +17,9 @@ npm install
 or
 yarn install
 4. Start the development server:
-npm start
+npm run dev
 or
-yarn start
+yarn dev
 5. Open your web browser and go to `http://localhost:5173` to view the application.
 
 ## Usage
