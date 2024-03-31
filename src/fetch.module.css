@@ -1,0 +1,61 @@
+.column{
+    flex-direction: column;
+}
+.row {
+    flex-direction: row;
+}
+.photos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 25px;
+    margin: 20px 0;
+}
+.container {
+    width: 250px;
+    height: 350px;
+}
+.image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: inherit;
+    padding: 10px 20px;
+    color: #145eb7;
+    text-transform: uppercase;
+}
+h1, h2, p{
+    text-align: center;
+    padding: 0 20px;
+}
+p {
+    font-size: 1.2rem;
+}
+.slider datalist {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    writing-mode: horizontal-tb ;
+    width: 200px;
+
+}
+
+.slider option {
+    padding: 0;
+
+}
+
+.slider input[type="range"] {
+    width: 200px;
+    margin: 0;
+
+}

@@ -1,0 +1,43 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family:
+          "Ubuntu",
+          sans-serif;
+  background-color: #d7e5e5;
+}
+
+html,
+body {
+  margin: 0;
+  line-height: 1.5;
+  color: #121212;
+}
+select,
+button {
+  font-size: 1.2rem;
+  font-family: inherit;
+  border: 2px solid #040b3a;
+  border-radius: 0;
+  padding: 10px 20px;
+  background-color: rgba(11, 33, 86, 0.8);
+  color: #fff;
+  margin: 10px 0;
+}
+
+
+button:hover {
+  box-shadow: 0 2px 4px hsla(0, 0%, 0%, 0.5);
+}
+
+button:active {
+  transform: translateY(1px);
+}
+
